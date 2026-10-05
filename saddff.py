@@ -7,7 +7,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppI
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # روی Space از Secrets می‌خونه؛ برای تست لوکال مستقیم بنویس
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8837273692:AAHEX9IoWWAQ-tP6niCc1P8dpVk3wBu66BA")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 OWNER_ID  = int(os.environ.get("OWNER_ID", "0"))
 APP_URL   = os.environ.get("APP_URL", "")   # مثل: https://username-tennis.hf.space
 
